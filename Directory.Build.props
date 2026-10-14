@@ -1,0 +1,9 @@
+﻿<Project>
+  <!-- Short intermediate folders: keeps paths under the Windows 260-character limit even in deep checkouts. -->
+  <PropertyGroup>
+    <_ObjAlias>$(MSBuildProjectName)</_ObjAlias>
+    <_ObjAlias Condition="'$(MSBuildProjectName)' == 'GTSteamVRBodyTracking'">plugin</_ObjAlias>
+    <_ObjAlias Condition="'$(MSBuildProjectName)' == 'UnitTests'">tests</_ObjAlias>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)build\o\$(_ObjAlias)\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>
