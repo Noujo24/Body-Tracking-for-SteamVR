@@ -1,5 +1,5 @@
 # Body-Tracking-for-SteamVR
-Gorilla Tag's body tracking doesn't work on steam so I made a mod for that
+Gorilla Tag's body tracking doesn't work on steam so I made a mod for that (watch this video if you don't have actual vive trackers: [Video](https://www.youtube.com/watch?v=BDgjwTNfF60&t=1s) )
 
 ## Installation
 
