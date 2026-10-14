@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project>
+	<!--
+		Optional: copy the built plugin into the game's BepInEx\plugins folder.
+		Off by default so building never changes your game install. Enable with:
+		dotnet build -c Release -p:CopyToPlugins=true
+	-->
+	<Target Name="CopyToPlugins" AfterTargets="Build" Condition="'$(CopyToPlugins)'=='true'">
+		<Copy SourceFiles="$(TargetPath)" DestinationFiles="$(PluginsPath)\$(ProjectName)\$(TargetFileName)" />
+		<Message Text="Copied $(TargetFileName) to $(PluginsPath)\$(ProjectName)" Importance="high" />
+		<Copy SourceFiles="$(TargetDir)$(TargetName).pdb" Condition="Exists('$(TargetDir)$(TargetName).pdb')" DestinationFiles="$(PluginsPath)\$(ProjectName)\$(TargetName).pdb" />
+	</Target>
+</Project>

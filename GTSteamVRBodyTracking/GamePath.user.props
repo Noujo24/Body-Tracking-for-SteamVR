@@ -1,0 +1,6 @@
+<Project>
+	<!-- Local only (git-ignored): this machine's Gorilla Tag folder. -->
+	<PropertyGroup>
+		<GamePath>E:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag</GamePath>
+	</PropertyGroup>
+</Project>

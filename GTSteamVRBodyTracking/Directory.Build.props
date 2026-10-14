@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project>
+	<!--
+		Game location. Defaults to the standard Steam path.
+		If your game is elsewhere, create GamePath.user.props next to this file (it is git-ignored):
+		  <Project><PropertyGroup><GamePath>D:\SteamLibrary\steamapps\common\Gorilla Tag</GamePath></PropertyGroup></Project>
+		or pass -p:GamePath="..." on the command line.
+	-->
+	<Import Project="$(MSBuildThisFileDirectory)GamePath.user.props" Condition="Exists('$(MSBuildThisFileDirectory)GamePath.user.props')" />
+
+	<PropertyGroup>
+		<GamePath Condition="'$(GamePath)'==''">C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag</GamePath>
+		<GameAssemblyPath>$(GamePath)\Gorilla Tag_Data\Managed</GameAssemblyPath>
+		<BepInExAssemblyPath>$(GamePath)\BepInEx\core</BepInExAssemblyPath>
+		<PluginsPath>$(GamePath)\BepInEx\plugins</PluginsPath>
+	</PropertyGroup>
+</Project>

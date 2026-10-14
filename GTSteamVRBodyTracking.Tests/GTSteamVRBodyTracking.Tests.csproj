@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Reuse the plugin's game paths (for the game's Newtonsoft.Json). -->
+	<Import Project="..\GTSteamVRBodyTracking\Directory.Build.props" />
+
+	<!--
+		Self-contained unit test runner (no external test framework needed).
+		Compiles the plugin's Unity-independent Core folder and runs it on .NET 8.
+		Run command: see README.md, "Building from source".
+	-->
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>9.0</LangVersion>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\GTSteamVRBodyTracking\Core\**\*.cs" Link="Core\%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- The game's own Newtonsoft.Json so tests use the exact serializer the plugin uses. -->
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>$(GameAssemblyPath)\Newtonsoft.Json.dll</HintPath>
+			<Private>true</Private>
+		</Reference>
+	</ItemGroup>
+
+</Project>

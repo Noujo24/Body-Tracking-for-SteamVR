@@ -1,0 +1,100 @@
+{
+  "SchemaVersion": 1,
+  "ModEnabled": true,
+  "Trackers": [
+    {
+      "Serial": "LHR-EXAMPLE1",
+      "LastKnownModel": "VIVE Tracker 3.0 MV",
+      "Enabled": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Smoothing": 0.35,
+      "ShowMarker": true,
+      "Calibration": {
+        "MountRotation": {
+          "X": -0.49999997,
+          "Y": 0.49999997,
+          "Z": -0.49999997,
+          "W": 0.49999997
+        },
+        "HeadRelativePosition": {
+          "X": 0.0,
+          "Y": -0.72,
+          "Z": -0.05
+        },
+        "CapturedUtc": "2026-10-13T20:00:00.0000000Z",
+        "RoleAtCalibration": "Waist"
+      },
+      "Role": "Waist"
+    },
+    {
+      "Serial": "LHR-EXAMPLE2",
+      "LastKnownModel": "VIVE Tracker 3.0 MV",
+      "Enabled": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -0.04
+      },
+      "RotationOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Smoothing": 0.2,
+      "ShowMarker": true,
+      "Calibration": null,
+      "Role": "LeftElbow"
+    },
+    {
+      "Serial": "LHR-EXAMPLE3",
+      "LastKnownModel": "VIVE Tracker 3.0 MV",
+      "Enabled": true,
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Smoothing": 0.5,
+      "ShowMarker": true,
+      "Calibration": null,
+      "Role": "LeftFoot"
+    }
+  ],
+  "Calibration": {
+    "Valid": true,
+    "CapturedUtc": "2026-10-13T20:00:00.0000000Z",
+    "ForwardYawDegrees": 12.5,
+    "TrackerCount": 1,
+    "RigYawOffsetDegrees": 0.0
+  },
+  "Ui": {
+    "MenuDistance": 0.6,
+    "MenuScale": 1.0,
+    "MenuAlwaysOnTop": true,
+    "MenuFollowsPlayer": true,
+    "ShowDebugMarkers": true,
+    "MarkersThroughWalls": true,
+    "ShowMarkerLabels": true,
+    "MarkerSize": 0.06
+  },
+  "Avatar": {
+    "Enabled": true,
+    "DriveBodyRotation": true,
+    "DriveElbows": true,
+    "MaxBodyAngle": 75.0
+  }
+}
