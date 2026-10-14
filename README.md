@@ -62,3 +62,5 @@ You can change the keyboard key and the VR gesture in `BepInEx\config\adrian.gor
 - `Toggle Key`: for example `F8`, `F9`, `Backquote`
 - `VR Gesture`: `BothSecondaryButtons`, `LeftSecondaryButton`, `RightSecondaryButton`, `LeftPrimaryAndSecondary`, or `Disabled`
 - `VR Gesture Hold Seconds`: how long to hold the gesture
+
+- <img width="1920" height="1080" alt="body track gt" src="https://github.com/user-attachments/assets/f4da796d-3c02-474d-a4b2-33bf49358cde" />
