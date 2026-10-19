@@ -5,7 +5,7 @@ Gorilla Tag's body tracking doesn't work on steam so I made a mod for that (watc
 
 **You need:**
 - Gorilla Tag on Steam (PC VR)
-- [BepInEx 5.4.23](https://github.com/BepInEx/BepInEx/releases) (x64, Unity Mono). BepInEx 6 is not supported.
+- [BepInEx 5.4.23](https://github.com/BepInEx/BepInEx/releases) (x64, Unity Mono).
 - SteamVR
 - HTC Vive Trackers paired in SteamVR, with base stations
 - **Quest / Pico / WMR headsets only:** [OpenVR Space Calibrator](https://github.com/pushrax/OpenVR-SpaceCalibrator) (or similar), to line up your headset with your trackers
