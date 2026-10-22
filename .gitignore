@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+*.dll
+*.pdb
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Local machine settings
+GamePath.user.props
