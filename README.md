@@ -5,7 +5,7 @@ Brings Gorilla Tag's body tracking to the **Steam (PC VR)** version using SteamV
 <img width="1920" height="1080" alt="Gorilla Tag body tracking with SteamVR trackers" src="https://github.com/user-attachments/assets/f4da796d-3c02-474d-a4b2-33bf49358cde" />
 
 > [!WARNING]
-> This is an unofficial mod. Use it in **modded lobbies only** and at your own risk. It is not affiliated with Another Axiom.
+> This is an unofficial mod. Use at your own risk. It is not affiliated with Another Axiom.
 
 **Who sees it?** Only you. The tracking moves your local gorilla and is never sent to other players. It also doesn't change your hitbox or movement physics.
 
