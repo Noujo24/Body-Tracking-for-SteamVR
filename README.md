@@ -9,17 +9,17 @@ Brings Gorilla Tag's body tracking to the **Steam (PC VR)** version using SteamV
 
 **Who sees it?** Only you. The tracking moves your local gorilla and is never sent to other players. It also doesn't change your hitbox or movement physics.
 
-**Built for:** Gorilla Tag on Steam, BepInEx 5.4.23, mod version 0.1.1. A game update can break the mod. If it stops working after an update, open an issue.
+**Built for:** Gorilla Tag on Steam, BepInEx 5.4.23, mod version 0.1.1. So far it has only been tested with Virtual Desktop. If you try it on another setup, or a game update breaks it, open an issue or message `@noujo_` on Discord.
 
 ## Requirements
 
 - Gorilla Tag on Steam (PC VR)
 - [BepInEx 5.4.23](https://github.com/BepInEx/BepInEx/releases) (x64, Unity Mono)
 - SteamVR
-- Body trackers paired in SteamVR. The mod is built for **HTC Vive Trackers** with base stations. Other trackers that SteamVR lists as trackers (for example Tundra or SlimeVR) should also be detected, but they're untested.
+- Vive Trackers in SteamVR: real **HTC Vive Trackers** with base stations, or emulated ones (for example from **Virtual Desktop**). Other trackers that SteamVR lists as trackers (for example Tundra or SlimeVR) should also be detected, but they're untested.
 - **Quest / Pico / WMR headsets only:** [OpenVR Space Calibrator](https://github.com/pushrax/OpenVR-SpaceCalibrator) (or similar), to line up your headset with your trackers
 
-No Vive trackers? [This video](https://www.youtube.com/watch?v=BDgjwTNfF60&t=1s) shows an alternative setup.
+No physical trackers? [This video](https://www.youtube.com/watch?v=BDgjwTNfF60&t=1s) shows a setup without them.
 
 ## Installation
 
